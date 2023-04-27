@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-       <Weather />
+       <Weather defaultCity="New York" />
         <footer className="footer">
           This project was coded by{" "}
           <a href="https://tangerine-moonbeam-52db1f.netlify.app/">
