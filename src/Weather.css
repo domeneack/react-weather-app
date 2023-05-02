@@ -61,3 +61,11 @@
   }
 
 }
+
+@media (max-width: 450px) {
+  .Weather .btn {
+    max-width: 100%;
+    
+    font-size: 10px;
+  }
+}
