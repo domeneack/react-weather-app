@@ -1,16 +1,17 @@
 .Weather {
-  font-family: Arial, sans-serif;
+  
   border: 1px solid #878787;
-  padding: 16px;
- 
-  border-radius: 4px;
-  color: rgb (189, 193, 198);
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(92, 113, 122, 0.08);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color:rgb(33, 33, 33)
 }
 
 .Weather h1 {
   color: #878787;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 30px;
+  font-weight: 200;
   margin: 20px 0 0 0;
   line-height: 29px;
 }
@@ -37,6 +38,7 @@
 .Weather .temperature {
     font-weight: bold;
     color: rgb(33, 33, 33);
+    padding:  1px;
     font-size: 64px;
     font-weight: 400;
     line-height: 64px;
@@ -49,6 +51,13 @@
   line-height: 1;
   position: relative;
   top: -34px;
-  
+}
+
+@media (max-width: 500px) {
+  .Weather .btn {
+    max-width: 100%;
+    padding:  7px 10px;
+    font-size: 15px;
+  }
 
 }
