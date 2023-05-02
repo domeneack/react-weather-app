@@ -11,7 +11,6 @@ export default function App() {
           <a
             href="https://tangerine-moonbeam-52db1f.netlify.app/"
             target="_blank"
-            rel="true"
             rel="noreferrer"
           >
             Domeneack Foster
@@ -20,7 +19,6 @@ export default function App() {
           <a
             href="https://github.com/domeneack/react-weather-app"
             target="_blank"
-            rel="true"
             rel="noreferrer"
           >
             open-sourced on GitHub
@@ -29,7 +27,6 @@ export default function App() {
           <a
             href="https://willowy-squirrel-9a862d.netlify.app/"
             target="_blank"
-            rel="true"
             rel="noreferrer"
           >
             hosted on Netlify
